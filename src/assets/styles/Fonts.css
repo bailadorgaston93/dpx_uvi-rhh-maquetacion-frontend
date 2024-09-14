@@ -1,0 +1,15 @@
+@font-face {
+    font-family:text_head;
+    src: url('../fonts/Roboto-Medium.ttf');
+}
+
+
+@font-face {
+    font-family:text_head2;
+    src: url('../fonts/Oswald-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family:text;
+    src: url('../fonts/Nunito-VariableFont_wght.ttf');
+}

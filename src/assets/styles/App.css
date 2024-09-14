@@ -1,0 +1,414 @@
+/* ---------------------------------------- HEADER - NAVBAR */
+.navbar_custom_content {
+    background-color: #0c0017;
+}
+
+.navli_custom_content {
+    color: white !important;
+    border-bottom: 2px solid transparent;
+    font-family: text;
+}
+
+.navli_custom_content:hover {
+    color: #00ff00 !important;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.50);
+}
+
+.navbar-toggler-icon{
+    background-image: url("../imgs/burger.png") !important;
+}
+
+/* ---------------------------------------- HOME SECTION */
+.home_section_content {
+    min-height: 100vh;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.home_section_content::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    background: rgba(0, 0, 0, 0.85);
+    z-index: -1;
+}
+
+.home_section_content_information {
+    padding: 2%;
+    width: 50%;
+}
+
+.home_section_content_information .content_title {
+    margin-top: 20%;
+    padding: 5%;
+    border-left: 5px solid rgb(255, 255, 255);
+}
+
+.home_section_content_information .content_title h3 {
+    color: rgb(173, 219, 103);
+    font-size: 4em;
+    letter-spacing: 5px;
+    text-align: left;
+    font-family: text_head;
+}
+
+.home_section_content_information .content_description {
+    text-align: left;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    font-family: text;
+}
+
+.home_section_content_information .content_description h5 {
+    padding: 2%;
+    letter-spacing: 2px;
+}
+
+.home_section_content_information .content_btn_contact {
+    padding: 2%;
+    letter-spacing: 2px;
+    width: 50%;
+    text-align: center;
+}
+
+.home_section_content_information .content_btn_contact button {
+    border-radius: 0;
+    background-color: transparent;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border: 3px solid white;
+    transition-duration: 0.5s !important;
+    font-family: text;
+}
+
+.home_section_content_information .content_btn_contact button:hover {
+    color: #ffffff !important;
+    background-color: rgba(0, 0, 0, 0.80);
+}
+
+.home_section_content_information .content_btn_contact button:active {
+    color: #ffffff !important;
+    background-color: rgba(0, 0, 0, 0.80);
+}
+
+/* ---------------------------------------- SERVICES SECTION */
+.service_section_content {
+    background-color: rgb(255, 255, 255);
+    padding: 5%;
+    min-height: 100vh;
+    background-image: url("../imgs/bg_section.png");
+    background-position: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.service_section_content .content_title {
+    text-align: center;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.80);
+    padding: 2%;
+    width: 70%;
+    margin: 0 auto;
+    color: rgb(1 22 39);
+    font-family: text_head;
+    letter-spacing: 3px;
+}
+
+.service_section_content .content_subtitle {
+    padding: 3%;
+    text-align: center;
+    margin-bottom: 5%;
+    color: rgb(1 22 39);
+    font-family: text;
+}
+
+.services_card_content {
+    border-radius: 0 !important;
+    border: 1px solid rgb(192, 192, 192) !important;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: #f0f3f2 !important;
+    font-family: text;
+}
+
+/* ---------------------------------------- GUIDE SECTION */
+.guide_help_section_content {
+    padding: 5%;
+    text-align: center;
+    color: white;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-image: url("../imgs/guide_bg.jpg");
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.guide_help_section_content .content_title {
+    padding: 1%;
+    margin-bottom: 1%;
+}
+
+.guide_help_section_content .content_title h3 {
+    font-family: text_head2;
+    font-size: 2.5em;
+    letter-spacing: 3px;
+}
+
+.guide_help_section_content .content_btn button {
+    border-radius: 0;
+    background-color: transparent;
+    border: 2px solid #3b0e60;
+    background-color: #7721bf;
+    border-radius: 50px;
+    min-width: 15%;
+    transition-duration: 0.5s !important;
+    font-family: text;
+    letter-spacing: 1px;
+}
+
+.guide_help_section_content .content_btn button:hover {
+    background-color: #3b0e60;
+    border: 2px solid #7721bf;
+}
+
+.guide_help_section_content .content_btn button:active {
+    background-color: #3b0e60;
+    border: 2px solid #7721bf;
+}
+
+
+/* ---------------------------------------- PLANS SECTION */
+.plans_section_content {
+    background-color: rgb(255, 255, 255);
+    padding: 5%;
+    min-height: 100vh;
+    background-image: url("../imgs/bg_section.png");
+    background-position: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.plans_section_content .content_title {
+    text-align: center;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.80);
+    padding: 2%;
+    width: 70%;
+    margin: 0 auto;
+    color: rgb(1 22 39);
+    margin-bottom: 5%;
+    font-family: text_head;
+    letter-spacing: 3px;
+}
+
+.plans_card_content {
+    border-radius: 20px !important;
+    border: 1px solid #150027 !important;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: #ffffff !important;
+}
+
+.plans_card_content .card_header {
+    background-color: #470083;
+    border-radius: 0 !important;
+    padding: 5%;
+    border-top: 1px solid #150027;
+    border-bottom: 3px solid #150027;
+    color: white;
+    text-transform: uppercase;
+    font-family: text_head2;
+    letter-spacing: 3px;
+    font-size: 1.5em;
+}
+
+.plans_card_content .card_footer {
+    background-color: rgba(57, 57, 57, 0.20);
+    border-radius: 0 !important;
+    padding: 5%;
+    color: #011627;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.plans_card_content .card_footer svg {
+    transform: scale(2);
+}
+
+.plans_card_content .card_footer span {
+    font-size: 1.1em;
+    font-weight: bold;
+    font-family: text;
+}
+
+.plans_item {
+    border-radius: 0 !important;
+    border: 1px solid transparent !important;
+}
+
+.plans_item svg {
+    transform: scale(1.5);
+}
+
+.plans_item span {
+    margin-left: 3%;
+    padding: 2%;
+    color: #011627 !important;
+    font-family: text;
+}
+
+.plans_check {
+    color: green;
+}
+
+.plans_no_check {
+    color: rgb(128, 0, 0);
+}
+
+/* ---------------------------------------- CONTACT SECTION */
+.contact_section_content {
+    background-color: rgb(240 243 242);
+    padding: 10%;
+}
+
+.contact_title_content {
+    width: 50%;
+    border-bottom: 3px solid rgb(1 22 39);
+    color: rgb(1 22 39);
+    font-family: text_head;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.contact_ul li {
+    list-style: none;
+    padding-top: 3%;
+    color: rgb(1 22 39);
+}
+
+.contact_ul li a {
+    color: rgb(1 22 39);
+    text-decoration: none;
+}
+
+.contact_ul li span {
+    padding: 1%;
+    color: rgb(1 22 39);
+    font-family: text;
+}
+
+.contact_ul li svg {
+    transform: scale(1.5);
+    color: rgb(1 22 39);
+}
+
+.contact_input_label {
+    color: rgb(1 22 39);
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: text;
+}
+
+.contact_input_control {
+    border: 1px solid #150027 !important;
+    border-radius: 0 !important;
+}
+
+.contact_input_control:focus {
+    border: 1px solid #150027 !important;
+    border-radius: 0 !important;
+    color: rgb(1 22 39);
+    background-color: #fff;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(13, 109, 253, 0) !important;
+}
+
+.contact_input_submit {
+    margin-top: 15%;
+    text-align: center !important;
+}
+
+.contact_input_submit button {
+    border-radius: 0;
+    width: 50%;
+    background-color: rgb(87, 87, 255);
+    color: rgb(1 22 39);
+    border: 1px solid rgb(1 22 39);
+}
+
+.contact_input_submit button:hover {
+    background-color: rgb(1 22 39);
+    color: rgb(87, 87, 255);
+    border: 1px solid rgb(87, 87, 255) !important;
+}
+
+.contact_input_submit button:active {
+    background-color: rgb(1 22 39) !important;
+    color: rgb(87, 87, 255) !important;
+    border: 1px solid rgb(87, 87, 255) !important;
+}
+
+.contact_input_submit button span {
+    padding: 3%;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-family: text;
+}
+
+.contact_input_submit button svg {
+    transform: scale(1.3);
+}
+
+/* ---------------------------------------- FOOTER */
+.footer_app_content {
+    background-color: #0c0017;
+    color: #abb8c3;
+    text-align: center;
+    padding: 1%;
+    font-family: text;
+}
+
+
+
+/* ANIMATIONS */
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
